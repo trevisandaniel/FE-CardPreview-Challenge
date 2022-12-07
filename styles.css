@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700&family=Montserrat:wght@500;700&display=swap');
 @import url('https://css.gg/shopping-cart.css');
 :root{
     --cor-darkCyan: hsl(158, 36%, 37%);
@@ -69,18 +70,20 @@ body p{
 .content h1{
     color: var(--cor-VeryDarkBlue);
     font-size: 35px;
+    font-family: 'Fraunces', serif;
 }
 
 .description{
     color:var(--cor-DarkGrayishBlue);
     font-size: 15px;
-    
+    font-family: 'Fraunces', serif;
 }
 
 .price-div{
     display: flex;
     justify-content: start;
     align-items: center;
+    font-family: 'Fraunces', serif;
 }
 
 .price{
